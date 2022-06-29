@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.breakbutton{
+  width:70px;
+  height: 70px;
+  border-radius: 35px;
+  background-image: url('./assets/axe.png');
+  background-color: #80deea;
+  padding: 10px;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.bridgebutton{
+  width:70px;
+  height: 70px;
+  border-radius: 35px;
+  background-image: url('./assets/wood.png');
+  background-color: #2bc037;
+  padding: 10px;
+  background-size: 100%;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.helpbutton{
+  width:70px;
+  height: 70px;
+  border-radius: 35px;
+  background-image: url('./assets/question_mark.png');
+  background-color: #e2de10;
+  padding: 10px;
+  background-size: 100%;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
